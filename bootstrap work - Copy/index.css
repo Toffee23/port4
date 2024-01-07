@@ -1,0 +1,26 @@
+*{
+    /* background-color: skyblue; */
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.carousel1{
+    position: relative;
+}
+
+.img-caro{
+    height: 20rem;
+    object-fit: cover;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.main{
+    padding: 30px 30px 20px;
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 768px)

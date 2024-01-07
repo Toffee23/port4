@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621133287794",
+    "project_id": "bnews-a7bd4",
+    "storage_bucket": "bnews-a7bd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621133287794:android:8523cd37b4f36bf6d1cdeb",
+        "android_client_info": {
+          "package_name": "com.firebasepro.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621133287794-p9cof585903lf00ngo9ojnnivf3aj2t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbGTDQiSWeuWw1SMAwoKbW06SeWu73H68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621133287794-p9cof585903lf00ngo9ojnnivf3aj2t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

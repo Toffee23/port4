@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNEWS</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="">
+  <div class=" h-full w-full">
+    <nav class="navbar bg-dark navbar-expand-lg d-flex justify-content-between w-100 bg-body-tertiary">
+        <div class="container-fluid w-100 justify-content-between d-flex  ">
+          <a class="BNEWS h1" href="#">BNEWS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex w-100 justify-content-between p-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./incident.html/">ADD INCIDENT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CATEGORY
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">RIOTS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="">ACCIDENTS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="">FIGHTING</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- </div> -->
+     <main class="vh-100 mx-5  d-flex flex-column justify-content-center text-danger">
+     
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img height="40"  src="./Pictures/Screenshots/riot.jfif" class="d-block w-100 img-caro" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+             <img height="40" src="./Pictures/Screenshots/riot2.jfif" class="d-block w-100 img-caro" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img height="40" src="./Pictures/Screenshots/car accident.jfif" class="d-block w-100 img-caro" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+       <div class="content d-flex gap-3 justify-content-between w-100 px-2 my-5">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">RIOT IN US CAPITOL</h5>
+          <img height="90" src="./Pictures/Screenshots/riot2.jfif" class="d-block w-100" alt="...">
+          <a href="" class="btn btn-primary">Story 1</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">RIOT IN LONDON PARK</h5>
+          <img height="90" src="" class="d-block w-100" alt="...">
+          <a href="" class="btn btn-primary">Story 2</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">LOOTING IN LONNDON MALL</h5>
+          <img height="90" src="./Pictures/Screenshots/fight.jfif" class="d-block w-100" alt="...">
+          <a href="" class="btn btn-primary">Story 3</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">CAR ACCIDENT IN ROMFORD ENGLAND</h5>
+          <img height="90" src="./Pictures/Screenshots/car accident.jfif" class="d-block w-100" alt="...">
+          <a href="" class="btn btn-primary">Story 4</a>
+        </div>
+      </div>
+      </div>
+
+    </main>
+      </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  </html>
